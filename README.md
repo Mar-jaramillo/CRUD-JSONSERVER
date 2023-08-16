@@ -1,2 +1,5 @@
-# CRUD-JSONSERVER
-Proyecto realizado con Javascript donde implementamos un Mockapi de datos desde el JSON SERVER, realizando todo el ecosistema CRUD como si estuvieramos conectados desde un Backend
+```js
+json-server --watch db.json
+```
+
+Browser sync: browser-sync start --server --file . --host --port 5000 --startPath screens/lista_cliente.html
